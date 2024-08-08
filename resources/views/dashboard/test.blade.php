@@ -109,7 +109,7 @@
 
     </div>
 
-    <main class="max-w-screen-xl px-4  mx-auto mt-8">
+    <main class="max-w-screen-xl px-4 mx-auto my-8">
         <div class="grid grid-cols-4 gap-3">
             <div class="w-full space-y-4" id="sidebar">
                 <div class="w-full p-5 flex gap-4 rounded-lg border">
@@ -231,62 +231,16 @@
             </div>
         </div>
     </main>
-    {{-- <div class="main-wrapper flex w-full">
-        <div class="side-wrapper m-10">
-            <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div class="flex items-center">
-                    <img class="h-10 mr-5" src="{{ asset('assets/images/Ellipse 2.png') }}" alt="">
-                    <div class="text-wrapper">
-                        <p class="text-black text-xl font-medium">I Kadek Adi Gilang Pratama</p>
-                        <p class="text-gray-500">Calon mahasiswa angkatan 2025</p>
-                    </div>
-                </div>
-            </div>
-
-            <div
-                class="max-w-sm p-6 mt-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div class="flex items-center bg-blue-900 p-2 rounded">
-                    <img class="h-8 mx-5" src="{{ asset('assets/images/Vector.png') }}" alt="">
-                    <p class="text-white text-xl font-medium">Dashboard</p>
-                </div>
-                <div class="flex items-center mt-10">
-                    <img class="h-8 mx-5" src="{{ asset('assets/images/Vector.png') }}" alt="">
-                    <p class="text-black text-xl font-medium">Application</p>
-                </div>
-                <div class="flex items-center mt-10">
-                    <img class="h-8 mx-5" src="{{ asset('assets/images/Vector.png') }}" alt="">
-                    <p class="text-black text-xl font-medium">Profile</p>
-                </div>
-                <div class="flex items-center mt-10">
-                    <img class="h-8 mx-5" src="{{ asset('assets/images/Vector.png') }}" alt="">
-                    <p class="text-black text-xl font-medium">Frequently Ask Question</p>
-                </div>
-                <div class="flex items-center mt-10">
-                    <img class="h-8 mx-5" src="{{ asset('assets/images/Vector.png') }}" alt="">
-                    <p class="text-black text-xl font-medium">Logout</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="m-10 flex-grow">
-            @yield('container')
-        </div>
-    </div> --}}
-
-
-
-    {{-- <footer>
-        <nav class="bg-black border-white-200 dark:bg-gray-900 px-4">
+    <footer>
+        <nav class="bg-black border-white-200 dark:bg-gray-900 py-2 px-4">
             <div class="max-w-screen-xl px-4 flex flex-wrap items-center justify-between mx-auto p-2">
                 <p class="text-white">Copyright © 2024 <a href="https://dti.primakara.ac.id/" target="_blank">DTI
-                        Universitas Primakara </a>. </p>
-                <p class="text-white">Handcrafted With <i class="mb-1 text-primary ms-1 icon-sm"
-                        data-feather="heart"></i>
+                        Universitas Primakara </a> </p>
+                <p class="text-white">Made with <span class="text-red-500">❤️</span>
                 </p>
             </div>
         </nav>
-    </footer> --}}
+    </footer>
 </body>
 
 </html>
