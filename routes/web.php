@@ -8,3 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+Route::get('/test-layout', function () {
+    return view('dashboard.test');
+});
