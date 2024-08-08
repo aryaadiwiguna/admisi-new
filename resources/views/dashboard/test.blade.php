@@ -149,7 +149,7 @@
                     <div class="max-w-lg">
                         <div class="space-y-10">
                             <div>
-                                <h1 class="text-3xl font-[Georama] font-medium mb-2">Hai, I Kadek Adi Gilang Pratama
+                                <h1 class="text-3xl font-[Georama] font-semibold mb-2">Hai, I Kadek Adi Gilang Pratama
                                 </h1>
                                 <p class="text-[#6B7B8A]">Selamat datang di portal pendaftaran Universitas Primakara.
                                     <br />Berikut
@@ -187,7 +187,43 @@
                 </div>
                 <div class="grid grid-cols-3 gap-3 mt-4">
                     <div class="col-span-2 space-y-3">
-                        <div class="border rounded-lg h-72"></div>
+                        <div class="border rounded-lg p-6">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h3 class="font-[Georama]  text-2xl font-medium mb-2">Mengisi Biodata
+                                    </h3>
+                                    <p class="text-[#6B7B8A] text-sm">Pastikan Anda mengunggah semua dokumen</p>
+                                </div>
+                                <p class="text-base font-[Georama] text-[#17A35F] font-medium">Selesai</p>
+                            </div>
+                            <hr class="my-5 border-2 rounded-md" />
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h3 class="font-[Georama]  text-2xl font-medium mb-2">Lakukan Pembayaran
+                                    </h3>
+                                    <p class="text-[#6B7B8A] text-sm">Membayaran pendaftaran registrasi</p>
+                                </div>
+                                <p class="text-base font-[Georama] text-[#17A35F] font-medium">Selesai</p>
+                            </div>
+                            <hr class="my-5 border-2 rounded-md" />
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h3 class="font-[Georama]  text-2xl font-medium mb-2">Lakukan Test Masuk
+                                    </h3>
+                                    <p class="text-[#6B7B8A] text-sm">Sediakan waktu 120 menit untuk menjawab.</p>
+                                </div>
+                                <p class="text-base font-[Georama] text-[#149FA9] font-medium">Lanjutkan</p>
+                            </div>
+                            <hr class="my-5 border-2 rounded-md" />
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h3 class="font-[Georama]  text-2xl font-medium mb-2">Daftar Ulang
+                                    </h3>
+                                    <p class="text-[#6B7B8A] text-sm">Pastikan Anda mengunggah semua dokumen</p>
+                                </div>
+                                <p class="text-base font-[Georama] text-[#6B7B8A] font-medium">Belum Dibuka</p>
+                            </div>
+                        </div>
                         <div class="border rounded-lg h-72"></div>
                     </div>
                     <div class="border rounded-lg h-96"></div>
