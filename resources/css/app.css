@@ -9,3 +9,9 @@
         font-family: "Proxima ", system-ui, sans-serif;
     }
 } */
+
+@layer utilities {
+    ::after .clip-triangle-right {
+        clip-path: polygon(100% 50%, 0 0, 0 100%);
+    }
+}

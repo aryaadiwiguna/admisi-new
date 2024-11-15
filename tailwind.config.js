@@ -1,9 +1,12 @@
+const { addDynamicIconSelectors } = require('@iconify/tailwind');
+
 module.exports = {
     content: [
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
         "./node_modules/flowbite/**/*.js",
+        "./src/*.html",
     ],
     theme: {
         fontFamily: {
@@ -11,5 +14,5 @@ module.exports = {
         },
         extend: {},
     },
-    plugins: [require("flowbite/plugin")],
+    plugins: [require("flowbite/plugin"), addDynamicIconSelectors()],
 };
