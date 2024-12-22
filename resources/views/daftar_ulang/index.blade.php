@@ -70,6 +70,6 @@
                 </li>
             </ol>
         </div>
-        @livewire('biodata-form')
+        @livewire('daftar-ulang')
     </div>
 @stop

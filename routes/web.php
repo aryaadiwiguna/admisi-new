@@ -17,4 +17,12 @@ Route::get('/profile', [DashboardController::class, 'profile']);
 
 Route::get('/application', [DashboardController::class, 'application']);
 
+Route::get("/application/pembayaran/1", [DashboardController::class, 'pembayaran']);
+Route::get("/application/pembayaran/2", [DashboardController::class, 'pembayaran2']);
+Route::get("/application/pembayaran/3", [DashboardController::class, 'pembayaran3']);
+
+Route::get('/ujian', [DashboardController::class, 'test']);
+
 Route::get('/quiz', [QuizController::class, 'index']);
+
+Route::get('/daftar_ulang', [DashboardController::class, 'daftar_ulang']);

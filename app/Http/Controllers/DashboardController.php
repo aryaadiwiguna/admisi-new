@@ -20,4 +20,29 @@ class DashboardController extends Controller
     {
         return view('dashboard.apllication');
     }
+
+    public function pembayaran()
+    {
+        return view('pendaftaran.pembayaran');
+    }
+
+    public function pembayaran2()
+    {
+        return view('pendaftaran.status_pembayaran');
+    }
+
+    public function pembayaran3()
+    {
+        return view('pendaftaran.bukti_pembayaran');
+    }
+
+    public function test()
+    {
+        return view('ujian.index');
+    }
+
+    public function daftar_ulang()
+    {
+        return view('daftar_ulang.index');
+    }
 }

@@ -70,6 +70,101 @@
                 </li>
             </ol>
         </div>
-        @livewire('biodata-form')
+
+        {{-- form --}}
+
+        <div class="grid grid-cols-5 gap-4 mt-4">
+            <div class="bg-white p-4 border  w-full  rounded-lg col-span-3">
+                <div class="bg-blue-100 p-4 flex justify-center">
+                    <img src="https://via.placeholder.com/150x100" alt="Ilustrasi" class="h-32">
+                </div>
+
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-center text-gray-900 mb-1">Transaksi Kamu Berhasil!</h2>
+                    <p class="text-sm text-center text-gray-600 mb-4">28 Juni 2024 | 13:00 WITA</p>
+
+                    <hr>
+
+                    <div class=" flex justify-center align-middle gap-4 rounded-lg bg-gradient-to-r from-[#F0F7FD]  to-[#17A35F] w-full h-10 mt-5 mb-4 p-7">
+                        <p></p>
+                    </div>
+
+                    {{-- <!-- Nominal Transaksi -->
+                    <div class="bg-orange-700 text-white rounded-lg p-4 mb-4">
+                        <p class="text-sm">Nominal Transaksi</p>
+                        <p class="text-2xl font-bold">IDR 300.000,00</p>
+                    </div> --}}
+
+                    <!-- Detail Metode Pembayaran -->
+                    <div class="flex justify-between items-center text-gray-700 mb-2">
+                        <span>Metode Pembayaran</span>
+                        <span class="font-medium">BNI Virtual Account</span>
+                    </div>
+                    <div class="flex justify-between items-center text-gray-700">
+                        <span>ID Transaksi</span>
+                        <span class="font-medium">048038490108</span>
+                    </div>
+
+                    <!-- Tombol -->
+                    <button class="w-full bg-blue-800 text-white py-2 rounded-lg mt-6 hover:bg-blue-900 font-medium">
+                        Lanjutkan
+                    </button>
+
+                    <!-- Unduh Bukti Transaksi -->
+                    <p class="text-center text-blue-600 mt-4 text-sm cursor-pointer hover:underline">
+                        Unduh Bukti Transaksi
+                    </p>
+                </div>
+            </div>
+            <div class="border w-full h-fit rounded-lg col-span-2 p-3">
+                <h2 class="font-bold text-xl text-center mb-4 mt-2">Rencana Studi</h2>
+                <div class="flex justify-between">
+                    <div>
+                        <p class="font-bold text-sm">Program Studi Pilihan</p>
+                        <p class="text-[#17A35F] text-sm">Sistem Informasi</p>
+                    </div>
+                    <div class="flex items-center gap-1 text-[#001B36] ">
+                        Ganti
+                        <span class="icon-[mdi--chevron-down] text-xl"></span>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-3">
+                    <div>
+                        <p class="font-bold text-sm">Sistem Kuliah</p>
+                        <p class="text-[#17A35F] text-sm">Kelas Pagi</p>
+                    </div>
+                    <div class="flex items-center gap-1 text-[#001B36] ">
+                        Ganti
+                        <span class="icon-[mdi--chevron-down] text-xl"></span>
+                    </div>
+                </div>
+                <div class="flex mt-3 gap-2 mb-2">
+                    <span class="icon-[mingcute--information-fill] text-4xl text-[#6B7B8A]"></span>
+                    <div class="text-[#6B7B8A] font-medium flex gap-2">
+                        <span class="text-sm ">
+                            Rencana Studi tidak dapat diubah ketika sudah Daftar Ulang
+                        </span>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <hr>
+                    <a href="" class="py-4 px-3 bg-[#EEEEEE] flex justify-center items-center border rounded-lg">
+                        Lihat Tata Cara Pembayaran
+                    </a>
+                </div>
+                <div class="mb-4">
+                    <a href="" class="py-4 px-3 bg-[#EEEEEE] flex justify-center items-center border rounded-lg">
+                        Tentang Pembayaran
+                    </a>
+                </div>
+                <div class="text-center">
+                    <p class="font-medium text-lg">Perlu Bantuan?<a href="" class="ml-2 text-[#004680]">Hubungi
+                            Kami</a></p>
+                </div>
+            </div>
+        </div>
+
+        {{-- end form --}}
+
     </div>
 @stop
