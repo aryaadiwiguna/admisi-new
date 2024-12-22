@@ -13,21 +13,22 @@ return new class extends Migration
     {
         Schema::create('pmb', function (Blueprint $table) {
             $table->id('id_pmb');
-            $table->string('nama_lengkap');
-            $table->integer('jenis_kelamin');
-            $table->string('tempat_lahir');
-            $table->date('tanggal_lahir');
-            $table->string('alamat');
-            $table->string('no_telp');
-            $table->string('email');
-            $table->string('nisn');
-            $table->integer('id_ref_sekolah');
-            $table->string('jurusan');
-            $table->year('tahun_lulus');
-            $table->integer('id_ref_provinsi');
-            $table->integer('id_ref_kabupaten');
-            $table->string('nilai_akhir');
-            $table->string('kuesioner');
+            $table->string('nama_lengkap')->nullable();
+            $table->integer('jenis_kelamin')->nullable();
+            $table->string('tempat_lahir')->nullable();
+            $table->date('tanggal_lahir')->nullable();
+            $table->string('alamat')->nullable();
+            $table->string('no_telp')->nullable();
+            $table->string('email')->nullable();
+            $table->string('nisn')->nullable();
+            $table->integer('id_ref_sekolah')->nullable();
+            $table->string('jurusan')->nullable();
+            $table->year('tahun_lulus')->nullable();
+            $table->integer('id_ref_provinsi')->nullable();
+            $table->integer('id_ref_kabupaten')->nullable();
+            $table->string('nilai_akhir')->nullable();
+            $table->string('kuesioner')->nullable();
+            $table->integer('id_user')->nullable();
             $table->timestamps();
         });
     }

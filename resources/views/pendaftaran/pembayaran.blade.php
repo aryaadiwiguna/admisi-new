@@ -75,6 +75,12 @@
 
         <div class="grid grid-cols-5 gap-4 mt-4">
             <div class="bg-white p-4 border  w-full  rounded-lg col-span-3">
+                @if (session()->has('status'))
+                    <div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+                        role="alert">
+                        {{ session('status') }}
+                    </div>
+                @endif
                 <div class="flex justify-between">
                     <h2 class="text-[#001B36] font-bold text-2xl">Pembayaran</h2>
                 </div>
@@ -90,19 +96,24 @@
                 </div>
                 <hr class="mt-3">
 
-                <div class=" flex justify-center align-middle gap-4 rounded-lg bg-gradient-to-r from-[#F0F7FD]  to-[#17A35F] w-full h-10 mt-3 p-7">
-                    <p></p>
+                <div class="flex px-3 gap-4 items-center rounded-lg bg-gradient-discount w-full py-2 mt-3">
+                    <img src="{{ asset('assets/images/pmb/discount-icon.svg') }}" class="w-7 h-7" />
+                    <div>
+                        <p class="font-semibold text-lg">Dapatkan Potongan Harga</p>
+                        <p class="text-[#384853]">Untuk Biaya Pendaftaran</p>
+                    </div>
                 </div>
 
                 <hr class="mt-3">
 
-                 <h2 class="text-[#001B36] font-bold text-2xl mt-3">Pilih Metode Pembayaran</h2>
+                <h2 class="text-[#001B36] font-bold text-2xl mt-3">Pilih Metode Pembayaran</h2>
 
                 <div class="p-4">
                     <!-- Opsi 1 -->
                     <div class="flex items-center justify-between bg-gray-100 p-4 rounded-lg mb-2 shadow-sm">
                         <div class="flex items-center">
-                            <img src="https://via.placeholder.com/32x32" alt="BNI Logo" class="w-8 h-8 mr-3" />
+                            <img src="{{ asset('assets/images/pmb/bni.png') }}" alt="BNI Logo"
+                                class="w-11 object-contain mr-3" />
                             <span class="text-gray-700 font-medium text-xl p-2">BNI Virtual Account</span>
                         </div>
                         <input type="radio" name="metode_pembayaran" class="form-radio text-green-500 p-3" checked />
@@ -115,7 +126,8 @@
                     </div>
 
                     <!-- Tombol -->
-                    <div class="rounded-lg shadow-sm mt-4 w-full bg-blue-800 text-white py-2 font-medium hover:bg-blue-900">
+                    <div
+                        class="rounded-lg shadow-sm mt-4 w-full bg-blue-800 text-white py-2 font-medium hover:bg-blue-900">
                         <a href="" class="text-center align-middle p-1 flex justify-center items-center">
                             Lanjutkan
                         </a>
