@@ -268,11 +268,7 @@
                                         class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 </div>
                             </div>
-                            {{-- <button type="submit"
-                                class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
-                                Add product
-                            </button> --}}
-                        
+                           
                             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
                         
                             <h1 class="font-bold text-2xl leading-8 font-[Georama]">Data Ibu</h1>

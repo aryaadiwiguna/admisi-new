@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,4 +26,13 @@ Route::get('/ujian', [DashboardController::class, 'test']);
 
 Route::get('/quiz', [QuizController::class, 'index']);
 
+
+
 Route::get('/daftar_ulang', [DashboardController::class, 'daftar_ulang']);
+
+Route::get('/daftar_ulang/reguler', [DashboardController::class, 'reguler']);
+Route::get('/daftar_ulang/final', [DashboardController::class, 'final']);
+
+Route::get('/daftar_ulang/final/lihat_tagihan', [DashboardController::class, 'detailTagihan']);
+
+Route::get('/payment', [PaymentController::class, 'index'])->name('index.payment');

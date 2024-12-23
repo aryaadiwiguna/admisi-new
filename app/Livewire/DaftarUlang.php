@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class DaftarUlang extends Component
 {
-    public $currPage = 1;
+    public $currPage = 2;
 
     public function nextPage()
     {

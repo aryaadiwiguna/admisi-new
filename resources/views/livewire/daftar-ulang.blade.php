@@ -23,7 +23,8 @@
                   <h2 class="text-lg font-semibold text-gray-700">Jalur Reguler</h2>
 
                   <a href=""
-                      class="p-2 bg-[#004680] text-white flex justify-center items-center border rounded-lg text-sm ">Pilih Jalur</a>
+                      class="p-2 bg-[#004680] text-white flex justify-center items-center border rounded-lg text-sm ">Pilih
+                      Jalur</a>
               </div>
 
               <div class="flex items-center justify-between mt-4 border-dotted border-2 border-black p-4">
@@ -31,7 +32,8 @@
                   <h2 class="text-lg font-semibold text-gray-700">Jalur Alih Jenjang</h2>
 
                   <a href=""
-                      class="p-2 bg-[#004680] text-white flex justify-center items-center border rounded-lg text-sm ">Pilih Jalur</a>
+                      class="p-2 bg-[#004680] text-white flex justify-center items-center border rounded-lg text-sm ">Pilih
+                      Jalur</a>
               </div>
 
               <div class="flex items-center justify-between mt-4 border-dotted border-2 border-black p-4">
@@ -39,63 +41,82 @@
                   <h2 class="text-lg font-semibold text-gray-700">Jalur Transfer</h2>
 
                   <a href=""
-                      class="p-2 bg-[#004680] text-white flex justify-center items-center border rounded-lg text-sm ">Pilih Jalur</a>
+                      class="p-2 bg-[#004680] text-white flex justify-center items-center border rounded-lg text-sm ">Pilih
+                      Jalur</a>
               </div>
           @else
               <div class="w-full rounded-lg col-span-2">
-                  <div class="mt-2">
-                      <label for="item-weight"
-                          class="block mb-2 text-base font-medium text-gray-900 dark:text-white">NISN</label>
-                      <input type="text" name="item-weight" id="item-weight"
-                          class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                          required>
+                  <div class="flex justify-between items-center">
+                      <span class="text-left font-normal text-base text-[#17A35F] mt-6">Biaya Pendaftaran</span>
+                      <span class="text-right font-normal text-base text-[#F44336] mt-6">IDR 15.000.000</span>
                   </div>
-                  <div class="mt-2">
-                      <label for="item-weight"
-                          class="block mb-2 text-base font-medium text-gray-900 dark:text-white">NPSN Nama
-                          Sekolah</label>
-                      <input type="text" name="item-weight" id="item-weight"
-                          class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                          required>
+                  <div class="flex justify-between items-center -mt-5">
+                      <span class="text-left font-normal text-xl text-black mt-6">Biaya DPP</span>
+                      <span class="text-right font-normal text-base text-black mt-6">IDR 5.000.000</span>
                   </div>
-                  <div class="mt-2">
-                      <label for="item-weight"
-                          class="block mb-2 text-base font-medium text-gray-900 dark:text-white">Jurusan</label>
-                      <input type="text" name="item-weight" id="item-weight"
-                          class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                          required>
+
+                  <hr class="mt-2">
+
+                  <div class="flex justify-between items-center -mt-5">
+                      <span class="text-left font-normal text-xl text-black mt-6">Biaya UKT</span>
+                      <span class="text-right font-normal text-base text-black mt-6">IDR 5.500.000</span>
                   </div>
-                  <div class="mt-2">
-                      <label for="item-weight"
-                          class="block mb-2 text-base font-medium text-gray-900 dark:text-white">Tahun Lulus</label>
-                      <input type="date" name="item-weight" id="item-weight"
-                          class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                          required>
+
+                  <hr class="mt-2">
+
+                  <div class="flex justify-between items-center -mt-5">
+                      <span class="text-left font-normal text-xl text-black mt-6">Biaya PMB</span>
+                      <span class="text-right font-normal text-base text-black mt-6">IDR 1.500.000</span>
                   </div>
-                  <div class="mt-2">
-                      <label for="item-weight"
-                          class="block mb-2 text-base font-medium text-gray-900 dark:text-white">Provinsi Asal
-                          Sekolah</label>
-                      <input type="text" name="item-weight" id="item-weight"
-                          class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                          required>
+
+                  <div class="flex justify-between items-center -mt-5">
+                      <span class="text-left font-normal text-xl text-[#004680] mt-6">Total Biaya</span>
+                      <span class="text-right font-normal text-base text-[#EB9A3C] mt-6">IDR 16.150.000</span>
                   </div>
-                  <div class="mt-2">
-                      <label for="item-weight"
-                          class="block mb-2 text-base font-medium text-gray-900 dark:text-white">Kabupaten Asal
-                          Sekolah</label>
-                      <input type="text" name="item-weight" id="item-weight"
-                          class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                          required>
+
+                  <hr class=" mt-2">
+
+                  <h2 class="text-2xl text-[#001B36] font-bold mt-4 mb-4">Pilih Skema Pembayaran</h2>
+
+                  <div class="flex items-center justify-between bg-gray-100 p-4 rounded-lg mb-4 shadow-sm">
+                      <div class="flex items-center">
+                          <span class="text-gray-700 font-medium text-xl p-2">Tanpa Cicilan</span>
+                      </div>
+                      <input type="radio" name="metode_pembayaran" class="form-radio text-green-500 p-3" checked />
                   </div>
-                  <div class="mt-2">
-                      <label for="item-weight"
-                          class="block mb-2 text-base font-medium text-gray-900 dark:text-white">Nilai Akhir
-                          Assesment</label>
-                      <input type="number" name="item-weight" id="item-weight"
-                          class="bg-[#F0F7FD] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                          required>
+
+                  <div class="flex items-center justify-between bg-gray-100 p-4 rounded-lg mb-2 shadow-sm">
+                      <div class="flex items-center">
+                          <span class="text-gray-700 font-medium text-xl p-2">Dengan Cicilan</span>
+                      </div>
+                      <input type="radio" name="metode_pembayaran" class="form-radio text-green-500 p-3" checked />
                   </div>
+
+                  <h2 class="text-2xl text-[#001B36] font-bold mt-4 mb-4">Pilih Metode Pembayaran</h2>
+
+                  <div class="flex items-center justify-between bg-gray-100 p-4 rounded-lg mb-4 mt-4 shadow-sm">
+                      <div class="flex items-center">
+                          <img src="{{ asset('assets/images/pmb/bni.png') }}" alt="BNI Logo"
+                              class="w-11 object-contain mr-3" />
+                          <span class="text-gray-700 font-medium text-xl p-2">BNI Virtual Account</span>
+                      </div>
+                      <input type="radio" name="metode_pembayaran" class="form-radio text-green-500 p-3" checked />
+                  </div>
+
+                  <div class="flex items-center justify-between bg-gray-100 p-4 rounded-lg mb-2 shadow-sm">
+                      <div class="flex items-center">
+                          <span class="text-gray-700 font-medium text-xl p-2">Pembayaran Cash</span>
+                      </div>
+                      <input type="radio" name="metode_pembayaran" class="form-radio text-green-500 p-3" checked />
+                  </div>
+
+                  <div
+                      class="rounded-lg shadow-sm mt-4 w-full bg-blue-800 text-white py-2 font-medium hover:bg-blue-900">
+                      <a href="" class="text-center align-middle p-1 flex justify-center items-center">
+                          Lanjutkan
+                      </a>
+                  </div>
+
               </div>
           @endif
       </div>

@@ -13,6 +13,9 @@ module.exports = {
             sans: ['"Inter var", sans-serif, "Georgia"'],
         },
         extend: {},
+        color: {
+            'midnight-blue' : '#001B36',
+        },
     },
     plugins: [require("flowbite/plugin"), addDynamicIconSelectors()],
 };

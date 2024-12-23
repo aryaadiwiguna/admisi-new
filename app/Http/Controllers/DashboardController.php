@@ -45,4 +45,19 @@ class DashboardController extends Controller
     {
         return view('daftar_ulang.index');
     }
+    
+    public function reguler()
+    {
+        return view('daftar_ulang.jalur_daftar');
+    }
+
+    public function final ()
+    {
+        return view('daftar_ulang.final-step');
+    }
+
+    public function detailTagihan()
+    {
+        return view('daftar_ulang.lihat_tagihan');
+    }
 }

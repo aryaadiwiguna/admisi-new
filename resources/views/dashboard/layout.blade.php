@@ -87,14 +87,25 @@
                 </div>
                 <div class="w-full p-5 rounded-lg border space-y-3 font-[Georama] font-medium">
                     {{-- Ketika active --}}
-                    <a class="bg-[#004680] text-white w-full inline-block p-3 rounded-md" href="/">
+                    {{-- <div class="flex justify-start bg-[#004680]">
+                       <div class="icon-[material-symbols--home] text-2xl align-middle mt-3 text-white p-2"></div>
+                        <a class=" text-white w-full inline-block p-3 rounded-md" href="/">
+                            Dashboard
+                        </a>
+                    </div> --}}
+                    <a class="bg-[#004680] text-white w-full inline-flex items-center gap-3 p-3 rounded-md"
+                        href="/">
+                        <span class="icon-[mdi--arrow-left] text-xl text-white"></span>
                         Dashboard
-                    </a>
+                        </a>
                     <a class=" w-full inline-block p-3 rounded-md">
                         Application
                     </a>
                     <a class=" w-full inline-block p-3 rounded-md">
                         Profile
+                    </a>
+                    <a class=" w-full inline-block p-3 rounded-md">
+                        Payment
                     </a>
                     <a class=" w-full inline-block p-3 rounded-md">
                         Frequently Ask Question
