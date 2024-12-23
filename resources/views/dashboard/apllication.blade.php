@@ -74,6 +74,9 @@
                 </li>
             </ol>
         </div>
-        @livewire('biodata-form')
+        <div class="grid grid-cols-5 gap-4 mt-4">
+            @livewire('biodata-form')
+            @livewire('rencana-studi')
+        </div>
     </div>
 @stop

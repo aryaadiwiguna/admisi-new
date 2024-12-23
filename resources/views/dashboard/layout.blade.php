@@ -97,7 +97,7 @@
                         href="/">
                         <span class="icon-[mdi--arrow-left] text-xl text-white"></span>
                         Dashboard
-                        </a>
+                    </a>
                     <a class=" w-full inline-block p-3 rounded-md">
                         Application
                     </a>
